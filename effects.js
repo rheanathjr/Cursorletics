@@ -22,8 +22,8 @@ function createSparkle(x, y){
 document.addEventListener("click", function(event){
     for(let i = 0; i < 5; i++){
         createSparkle(
-            event.clientX,
-            event.clientY
+            event.pageX,
+            event.pageY
         );
     }
 });
