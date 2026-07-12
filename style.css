@@ -10,6 +10,7 @@ body {
     color: #FDBA74;
 }
 
+/*
 .custom-nav {
     background-color: #C2410C;
     backdrop-filter: blur(10px);
@@ -22,6 +23,7 @@ body {
 .navbar-brand:hover {
     color: #FB923C !important;
 }
+*/
 
 #homepageCarousel {
     margin-bottom:40px;
