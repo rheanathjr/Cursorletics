@@ -1,6 +1,14 @@
-const instructionModal = new bootstrap.Modal(document.getElementById("instructionModal"));
+const instructionModal = new bootstrap.Modal(
+    document.getElementById("instructionModal"),
+    {
+        backdrop: "static",
+        keyboard: false
+    }
+);
 
-const resultModal = new bootstrap.Modal(document.getElementById("resultModal"));
+const resultModal = new bootstrap.Modal(
+    document.getElementById("resultModal")
+);
 
 const startButton = document.getElementById("startButton");
 
@@ -69,7 +77,7 @@ function showResults(){
     }
 
     else{
-        reactionRating.textContent =
+        rankText.textContent =
         "🔥 Good!";
     }
 
