@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-position: center;
     animation: backgroundFloat 10s ease-in-out infinite;
-    background-color: #8B2E00;
+    background-color: #FFD166;
 }
 
 @keyframes backgroundFloat {
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #8B2E00;
     cursor: pointer;
     user-select: none;
 }
