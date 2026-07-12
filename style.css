@@ -6,43 +6,107 @@ html, body {
 body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    background-color: #7C2D12;
-}
-
-#homepageCarousel {
-    margin-bottom: 40px;
-}
-
-.carousel-item img {
-    height: 500px;
-    object-fit: cover;
-}
-
-.card {
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-.btn-primary {
-    background-color: #2563EB;
-    border-color: #2563EB;
-}
-
-.btn-primary:hover {
-    background-color: #38BDF8;
-    border-color: #38BDF8;
-}
-
-footer {
-    background-color: rgba(255,255,255,0.9) !important;
+    background-color: #8B2E00;
+    color: #FDBA74;
 }
 
 .custom-nav {
-    background-color: rgba(255,255,255,0.85);
+    background-color: rgba(139,46,0,0.85);
     backdrop-filter: blur(10px);
 }
 
+.navbar-brand {
+    color: #FDBA74 !important;
+}
+
+.navbar-brand:hover {
+    color: #FB923C !important;
+}
+
+#homepageCarousel {
+    margin-bottom:40px;
+}
+
+.carousel-item img {
+    height:500px;
+    object-fit:cover;
+}
+
+.carousel-caption {
+    text-shadow:
+        2px 2px 0 #8B2E00;
+}
+
+.carousel-caption h2 {
+    color:#FDBA74;
+}
+
+.carousel-caption p {
+    color:white;
+}
+
+main h2 {
+    color:#FDBA74;
+    text-shadow: 2px 2px 0 #8B2E00;
+}
+
+main p {
+    color:white;
+}
+
+.cursor-card {
+    background-color:#C2410C;
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.cursor-card:hover {
+    transform:translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.card-img-top {
+    height:250px;
+    object-fit:cover;
+}
+
+.card-body {
+    color:#FDBA74;
+}
+
+.card-title {
+    color:#FDBA74;
+    text-shadow: 2px 2px 0 #7C2D12;
+
+}
+
+.card-text {
+    color:white;
+}
+
+.btn-orange {
+    background-color:#F97316;
+    border-color:#F97316;
+    color:white;
+    font-weight:bold;
+}
+
+.btn-orange:hover {
+    background-color:#FB923C;
+    border-color:#FB923C;
+    color:#7C2D12;
+}
+
 .custom-footer {
-    background-color: rgba(255,255,255,0.85);
-    backdrop-filter: blur(10px);
+    background-color:rgba(124,45,18,0.9);
+    backdrop-filter:blur(10px);
+    color:#FDBA74;
+}
+
+.custom-footer p {
+    color:white;
 }
