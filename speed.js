@@ -55,27 +55,23 @@ function showResults(){
 
     if(cps >= 9){
         rankText.textContent =
-        "🏆 Elite";
+        "🏆 Incredible!";
     }
 
     else if(cps >= 7){
         rankText.textContent =
-        "🥇 Excellent";
+        "🥇 Epic!";
     }
 
     else if(cps >= 5){
         rankText.textContent =
-        "🥈 Great";
+        "🥈 Great!";
     }
 
     else if(cps >= 3){
         rankText.textContent =
-        "🥉 Good";
+        "🥉 Good!";
     }
 
-    else{
-        rankText.textContent =
-        "💪 Keep Practicing!";
-    }
     resultModal.show();
 }
