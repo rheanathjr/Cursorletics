@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-position: center;
     animation: backgroundFloat 10s ease-in-out infinite;
-    color: #8B2E00;
+    background-color: #8B2E00;
 }
 
 @keyframes backgroundPulse {

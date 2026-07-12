@@ -7,7 +7,11 @@ const instructionModal = new bootstrap.Modal(
 );
 
 const resultModal = new bootstrap.Modal(
-    document.getElementById("resultModal")
+    document.getElementById("resultModal"),
+    {
+        backdrop: "static",
+        keyboard: false
+    }
 );
 
 const startButton = document.getElementById("startButton");
