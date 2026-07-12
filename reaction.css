@@ -6,7 +6,7 @@ html, body{
 body{
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    background: url("images/speed-background.jpg");
+    background: url("images/Background.png");
     background-size: cover;
     background-position: center;
 }
