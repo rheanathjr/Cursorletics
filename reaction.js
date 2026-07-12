@@ -49,23 +49,28 @@ gameScreen.addEventListener("click", () => {
 
     if(time < 200){
         reactionRating.textContent =
-        "🔥🔥🔥 Incredible!";
+        "🔥🔥🔥🔥🔥 Incredible!";
     }
 
     else if(time < 300){
         reactionRating.textContent =
-        "🔥🔥 Great!";
+        "🔥🔥🔥🔥 Awesome!";
     }
 
-    else if(time < 450){
+     else if(time < 400){
         reactionRating.textContent =
-        "🔥 Good";
+        "🔥🔥🔥 Epic!";
+    }
+
+    else if(time < 500){
+        reactionRating.textContent =
+        "🔥🔥 Great!";
     }
 
     else{
         reactionRating.textContent =
-        "💪 Keep Practicing!";
-
+        "🔥 Good!";
     }
+    
     resultModal.show();
 });
