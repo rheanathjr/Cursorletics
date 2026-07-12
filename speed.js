@@ -68,9 +68,9 @@ function showResults(){
         "🥈 Great!";
     }
 
-    else if(cps >= 3){
-        rankText.textContent =
-        "🥉 Good!";
+    else{
+        reactionRating.textContent =
+        "🔥 Good!";
     }
 
     resultModal.show();
