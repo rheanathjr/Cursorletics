@@ -10,7 +10,6 @@ body{
     background-size: cover;
     background-position: center;
     animation: backgroundFloat 10s ease-in-out infinite;
-    background-color: #FFD166;
 }
 
 @keyframes backgroundFloat {
