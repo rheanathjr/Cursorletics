@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reaction Drill</title>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+         <!-- CSS -->
+        <link rel="stylesheet" href="reaction.css">
+    </head>
+
+    <body>
+
+        <!-- Instructions -->
+        <div class="modal fade" id="instructionModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            Reaction Drill
+                        </h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>
+                            Wait until the screen turns green.
+                        </p>
+
+                        <p>
+                            As soon as it changes, click anywhere on the screen.
+                        </p>
+
+                        <p>
+                            Clicking too early will restart the drill.
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-success" data-bs-dismiss="modal" id="startButton">
+                            Start Drill
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Results -->
+        <div class="modal fade" id="resultModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            Results
+                        </h4>
+                    </div>
+
+                    <div class="modal-body text-center">
+                        <h1 id="reactionTime">
+                            0 ms
+                        </h1>
+
+                        <p id="reactionRating">
+                            Amazing!
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" onclick="location.reload()">
+                            Try Again
+                        </button>
+
+                        <a href="index.html" class="btn btn-secondary">
+                            Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Screen -->
+        <main id="gameScreen">
+            <h1 id="statusText">
+                WAIT...
+            </h1>
+        </main>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+         <!-- JS -->
+        <script src="reaction.js"></script>
+    </body>
+</html>
