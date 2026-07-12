@@ -1,6 +1,18 @@
-const instructionModal = new bootstrap.Modal(document.getElementById("instructionModal"));
+const instructionModal = new bootstrap.Modal(
+    document.getElementById("instructionModal"),
+    {
+        backdrop: "static",
+        keyboard: false
+    }
+);
 
-const resultModal = new bootstrap.Modal(document.getElementById("resultModal"));
+const resultModal = new bootstrap.Modal(
+    document.getElementById("resultModal"),
+    {
+        backdrop: "static",
+        keyboard: false
+    }
+);
 
 const startButton = document.getElementById("startButton");
 
