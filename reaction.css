@@ -28,3 +28,64 @@ body{
     user-select: none;
     letter-spacing: 3px;
 }
+
+.modal-content {
+    background-color: #C2410C;
+    border: 3px solid #8B2E00;
+    border-radius: 15px;
+    color: white;
+    box-shadow:
+        0 10px 30px rgba(124,45,18,0.5);
+}
+
+.modal-header {
+    border-bottom: 2px solid #8B2E00;
+}
+
+.modal-title {
+    color: #FDBA74;
+    font-weight:bold;
+    text-shadow: 2px 2px 0 #8B2E00;
+}
+
+.modal-body {
+    color:white;
+}
+
+.modal-body h1,
+.modal-body h2,
+.modal-body h3 {
+    color:#FFD166;
+    text-shadow: 2px 2px 0 #8B2E00;
+}
+
+
+.modal-body p {
+    color:white;
+}
+
+.modal-body hr {
+    border-color:#FDBA74;
+    opacity:0.8;
+}
+
+.modal-footer {
+    border-top:2px solid #8B2E00;
+}
+
+.btn-primary,
+.btn-success,
+.btn-secondary {
+    background-color:#F97316;
+    border-color:#F97316;
+    color:white;
+    font-weight:bold;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-secondary:hover {
+    background-color:#FB923C;
+    border-color:#FB923C;
+    color:#7C2D12;
+}
