@@ -7,7 +7,7 @@ Cursorletics is a website that helps users improve their cursor skills through f
 The current version includes two training drills:
 
 * Speed Drill - Test how many times you can click within 30 seconds and receive a performance ranking based on your clicks per second.
-* Reaction Drill** - Wait for the signal, then click as quickly as possible to measure your reaction time. Clicking too early restarts the drill, so timing is important!
+* Reaction Drill - Wait for the signal, then click as quickly as possible to measure your reaction time. Clicking too early restarts the drill, so timing is important!
 
 ## Built With
 
