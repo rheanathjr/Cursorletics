@@ -1,4 +1,23 @@
 # Cursorletics
-This is a project I created for the United Hacks V7 (my first time participating in a hackathon)!
 
-This project is to train your cursor skills (for now, you can train your speed and reaction skills). I used ChatGPT to debug my JavaScript files, but I made sure to ask the AI on how the code works so that I am more familiar with using JS on my own next time. :D
+Cursorletics is a website that helps users improve their cursor skills through fun and interactive drills. I created this project for United Hacks V7, which was also my very first hackathon!
+
+## Features
+
+The current version includes two training drills:
+
+* Speed Drill - Test how many times you can click within 30 seconds and receive a performance ranking based on your clicks per second.
+* Reaction Drill** - Wait for the signal, then click as quickly as possible to measure your reaction time. Clicking too early restarts the drill, so timing is important!
+
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap 5
+
+## AI Disclosure
+
+I used ChatGPT to help debug parts of my JavaScript. Though, I made sure to ask how the code worked so I could understand it and apply it on my own in future projects.
+
+Thank you for checking out Cursorletics! 🧡
